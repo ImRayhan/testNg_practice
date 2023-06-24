@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-24T03:00:50 EDT" name="Default suite" finished-at="2023-06-24T03:00:56 EDT" duration-ms="5564">
+    <groups>
+    </groups>
+    <test started-at="2023-06-24T03:00:50 EDT" name="Default test" finished-at="2023-06-24T03:00:56 EDT" duration-ms="5564">
+      <class name="com.Ebay.tests.Ebay_Home_Sanity">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Ebay.tests.Ebay_Home_Sanity@2a3b5b47]" started-at="2023-06-24T03:00:50 EDT" name="setup" finished-at="2023-06-24T03:00:52 EDT" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchField()[pri:0, instance:com.Ebay.tests.Ebay_Home_Sanity@2a3b5b47]" started-at="2023-06-24T03:00:52 EDT" name="searchField" finished-at="2023-06-24T03:00:56 EDT" duration-ms="3981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchField -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:com.Ebay.tests.Ebay_Home_Sanity@2a3b5b47]" started-at="2023-06-24T03:00:56 EDT" name="tearup" finished-at="2023-06-24T03:00:56 EDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- com.Ebay.tests.Ebay_Home_Sanity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
