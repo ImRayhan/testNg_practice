@@ -2,6 +2,7 @@ package com.Ebay.Pages;
 
 import org.openqa.selenium.WebDriver;
 
+import com.Ebay.elements.EbayAdvanced_Search_Elements;
 import com.Ebay.elements.Ebay_Home_Page_Elements;
 
 public class Ebay_Home_Page {
@@ -10,9 +11,11 @@ public class Ebay_Home_Page {
 
 	Ebay_Home_Page_Elements homePage;
 
+
 	public Ebay_Home_Page(WebDriver driver) {
 		this.driver = driver;
 		homePage = new Ebay_Home_Page_Elements(driver);
+		
 	}
 
 	public void search(String phoneName) {
@@ -30,6 +33,8 @@ public class Ebay_Home_Page {
 		System.out.println(s);
 		System.out.println(actual);
 	}
+	
+
 
 	public String getPageUrl() {
 		return pageUrl;

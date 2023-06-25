@@ -17,7 +17,7 @@ public class AbstractBaseTest {
 
 	@BeforeMethod
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "/Users/rayhanchowdhury/Downloads/chromedriver_mac_arm64/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/rayhanchowdhury/Downloads/chromedriver_mac_arm64/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
