@@ -1,0 +1,18 @@
+<suite name="include Exclude Methods">
+	<test name="Release 2023.6 Sanity Testing">
+		<classes>
+			<class name="com.Ebay.tests.EbayAdvanchedSearch_Regression">
+				<methods>
+					<include name="ebayAdvancedCetegorySearch" />
+				</methods>
+			</class>
+
+			<class name="com.Ebay.tests.Ebay_Home_Sanity">
+				<methods>
+					<exclude name="searchField" />
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+</suite>

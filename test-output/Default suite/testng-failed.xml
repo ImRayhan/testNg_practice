@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Ebay.tests.EbayAdvanchedSearch_Regression">
+      <class name="com.Ebay.tests.Demo_Test">
         <methods>
-          <include name="setup"/>
-          <include name="tearup"/>
-          <include name="ebayAdvancedCetegorySearch"/>
+          <include name="test5"/>
         </methods>
-      </class> <!-- com.Ebay.tests.EbayAdvanchedSearch_Regression -->
+      </class> <!-- com.Ebay.tests.Demo_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

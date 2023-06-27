@@ -1,0 +1,9 @@
+<suite name="regression" parallel="classes" thread-count="2">
+
+	<test name="Release 2023.5 Sanity Testing">
+		<classes>
+			<class name="com.Ebay.tests.Ebay_Home_Sanity" />
+			<class name="com.Ebay.tests.EbayAdvanchedSearch_Regression" />
+		</classes>
+	</test>
+</suite>

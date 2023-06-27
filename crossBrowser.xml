@@ -1,0 +1,18 @@
+<suite name="reg">
+	<test name="relase 2023.6">
+		<parameters>
+			<parameter name="browser" value="chrome" />
+			<classes>
+				<class name="com.Ebay.tests.Ebay_Home_Sanity" />
+				<class name="com.Ebay.tests.EbayAdvanchedSearch_Regression" />
+			</classes>
+		</parameters>
+	</test>
+	<test name="relase 2023.6.1">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.Ebay.tests.Ebay_Home_Sanity" />
+			<class name="com.Ebay.tests.EbayAdvanchedSearch_Regression" />
+		</classes>
+	</test>
+</suite>
